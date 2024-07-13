@@ -22,7 +22,10 @@
             "tsConfig": "tsconfig.app.json",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/assets/favicon.png",
+              "src/assets/img_girl.jpg",
+              "src/assets/homePage.jpg"
             ],
             "styles": [
               "src/styles.css"
@@ -94,5 +97,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "864273ea-bc49-4249-a759-364c79c43e86"
   }
 }

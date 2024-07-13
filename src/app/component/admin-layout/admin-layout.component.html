@@ -1,0 +1,30 @@
+<div id="mySidenav" class="sidenav">
+
+  <img src="assets/favicon.png" class="logo" alt="">
+
+  <a routerLink="/admin/dashboard"><b>Dashboard</b></a>
+  <a routerLink="/admin/order"><b>Order</b></a>
+  <a routerLink="/admin/product"><b>Products</b></a>
+  <a routerLink="/admin/customer"><b>Customer</b></a>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <button type="button" class="logout-btn" class="btn btn-dark" (click)="logOut()"><b>Log Out</b></button>
+</div>
+
+<div class="data-page">
+  <h3> Hello {{userDetails.userName}}</h3>
+
+  <div class="card">
+    <div class="card-body">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+
+</div>
+
+

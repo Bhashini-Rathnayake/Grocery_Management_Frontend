@@ -1,0 +1,10 @@
+.header-elements{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.edit-btn{
+  cursor: pointer;
+  color: navy;
+}

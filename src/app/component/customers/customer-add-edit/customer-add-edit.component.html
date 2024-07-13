@@ -1,0 +1,49 @@
+<span *ngIf="pageType == 'edit'">
+      <h3> Edit Customer </h3>
+    </span>
+
+<span *ngIf="pageType == 'new'">
+      <h3> New Customer </h3>
+    </span>
+
+<form [formGroup]="customerForm">
+  <div class="d-flex justify-content-around">
+    <div style="width: 48%">
+      <label class="form-label">Customer Name</label>
+      <input  class="form-control" placeholder="Customer Name" formControlName="customerName">
+    </div>
+
+    <div style="width: 48%">
+      <label class="form-label">Customer Telephone No</label>
+      <input  class="form-control" placeholder="Customer Telephone No" formControlName="customerTelNo">
+    </div>
+  </div>
+
+  <br>
+
+  <div class="d-flex justify-content-around">
+    <div style="width: 98%">
+      <label class="form-label">Customer Address</label>
+      <textarea class="form-control" rows="3" placeholder="Customer Address" formControlName="customerAddress"></textarea>
+    </div>
+  </div>
+
+  <br>
+
+  <div>
+
+    <button type="button" class="btn btn-success save-btn save-btn" (click)="saveCustomer()" [disabled]="!isDirty()" [disabled]="!isValid()">
+      <p *ngIf="pageType == 'edit'">
+        Update
+      </p>
+      <p *ngIf="pageType == 'new'">
+        Save
+      </p>
+    </button>
+
+  </div>
+
+</form>
+
+
+

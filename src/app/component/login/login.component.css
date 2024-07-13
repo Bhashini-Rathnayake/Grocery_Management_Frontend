@@ -1,0 +1,16 @@
+.login-style{
+  width: 325px;
+  margin: 30px auto;
+  margin-bottom: auto;
+}
+
+.login-container {
+  height: 100vh;
+  background-image: url('~src/assets/img_girl.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /*background-attachment: fixed;*/
+  margin-top: -205px;
+  width: 100%;
+}

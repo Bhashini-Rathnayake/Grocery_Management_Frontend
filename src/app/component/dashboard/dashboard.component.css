@@ -1,0 +1,70 @@
+
+h1{
+  font-family: 'Exo 2', sans-serif;
+}
+
+.order-count{
+  height: 200px;
+  width: 32%;
+  margin-left: 1%;
+  --bs-border-radius: 5px;
+  /*background-image: linear-gradient(90turn,#06D001,#9BCF53);*/
+  color: black;
+}
+.order-count h1{
+  font-size: 30px;
+}
+.order-count p{
+  font-size: 40px;
+  font-weight: bold;
+  align-items: center;
+}
+.product-count{
+  height: 200px;
+  width: 32%;
+  margin-left: 1%;
+  --bs-border-radius: 5px;
+  /*background-image: linear-gradient(90turn,#06D001,#9BCF53);*/
+  color: black;
+}
+.product-count h1{
+  font-size: 30px;
+}
+.product-count p{
+  font-size: 40px;
+  font-weight: bold;
+}
+.total-revenue{
+  height: 200px;
+  width: 24%;
+  margin-left: 1%;
+  --bs-border-radius: 5px;
+  background-image: linear-gradient(90turn,white,#ACE1AF);
+  color: black;
+}
+.cash-revenue{
+  height: 200px;
+  width: 24%;
+  margin-left: 1%;
+  --bs-border-radius: 5px;
+  background-image: linear-gradient(90turn,white,#ACE1AF);
+  color: black;
+}
+.cheque-revenue{
+  height: 200px;
+  width: 24%;
+  margin-left: 1%;
+  --bs-border-radius: 5px;
+  background-image: linear-gradient(90turn,white,#ACE1AF);
+  color: black;
+}
+.credit-revenue{
+  height: 200px;
+  width: 24%;
+  margin-left: 1%;
+  --bs-border-radius: 5px;
+  background-image: linear-gradient(90turn,white,#ACE1AF);
+  color: black;
+}
+
+
