@@ -32,9 +32,11 @@
 }
 
 .logout-btn{
-  margin-left: 20px;
-  font-size: 20px;
-  width: 100px
+  /* margin-left: 20px; */
+  /* font-size: 20px; */
+  width: 100%;
+  text-align: left;
+  border-radius: 0%;
 }
 
 .logo{
@@ -43,4 +45,18 @@
   margin-left: 75px;
 }
 
+.sidenav .nav-item {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.sidenav .nav-item.active {
+  color: black; /* Change to your desired active color */
+  background-color: #f0f0f0; /* Optional: Add a background color for the active item */
+}
+
+.logout-btn.active-logout {
+  background-color: red; /* Change to your desired color */
+  color: white;
+}
 

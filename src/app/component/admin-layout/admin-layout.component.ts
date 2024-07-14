@@ -8,6 +8,7 @@ import {Router} from "@angular/router";
 })
 export class AdminLayoutComponent implements OnInit{
   userDetails: any= {};
+  isLogoutClicked: boolean = false;
 
   constructor(private router: Router){}
 
@@ -26,6 +27,7 @@ export class AdminLayoutComponent implements OnInit{
 
 
   logOut(){
+    this.isLogoutClicked = true;
     this.router.navigate(['/login']);
     sessionStorage.removeItem('userDetails')
   }
