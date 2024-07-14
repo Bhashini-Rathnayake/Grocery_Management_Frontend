@@ -11,6 +11,7 @@
   background-position: center;
   background-repeat: no-repeat;
   /*background-attachment: fixed;*/
-  margin-top: -205px;
+  /* margin-top: -200px; */
+  overflow-y: hidden;
   width: 100%;
 }
