@@ -25,7 +25,8 @@ export class OrderComponent implements OnInit {
   onSearch(): void {
     if (this.searchTerm) {
       this.filteredOrders = this.orders.filter((order: any) =>
-        order.customerName.toLowerCase().includes(this.searchTerm.toLowerCase())
+        order.customerName.toLowerCase().includes(this.searchTerm.toLowerCase()) ||
+        order.invoiceNumber.toLowerCase().includes(this.searchTerm.toLowerCase())
       );
     } else {
       this.filteredOrders = this.orders; // Reset to all orders if search term is empty
